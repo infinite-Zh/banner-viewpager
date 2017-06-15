@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="BannerView">
+        <attr name="banner_autoScroll" format="boolean"/>
+        <attr name="banner_leftOffset" format="dimension"/>
+        <attr name="banner_rightOffset" format="dimension"/>
+        <attr name="banner_scrollTimeInterval" format="integer"/>
+    </declare-styleable>
+</resources>
