@@ -6,5 +6,10 @@
         <attr name="banner_leftOffset" format="dimension"/>
         <attr name="banner_rightOffset" format="dimension"/>
         <attr name="banner_scrollTimeInterval" format="integer"/>
+        <attr name="banner_showIndicator" format="boolean"/>
+        <attr name="banner_indicatorSelected" format="reference"/>
+        <attr name="banner_indicatorNormal" format="reference"/>
+        <attr name="banner_indicatorWidth" format="dimension"/>
+        <attr name="banner_indicatorHeight" format="dimension"/>
     </declare-styleable>
 </resources>

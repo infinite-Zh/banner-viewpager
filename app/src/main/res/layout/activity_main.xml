@@ -9,9 +9,12 @@
 
     <com.infinite.bannerapp.BannerView
         android:id="@+id/banner"
-        app:banner_autoScroll="false"
+        app:banner_autoScroll="true"
         app:banner_leftOffset="30dp"
         app:banner_rightOffset="30dp"
+        app:banner_showIndicator="true"
+        app:banner_indicatorSelected="@mipmap/ic_selected"
+        app:banner_indicatorNormal="@mipmap/ic_normal"
         app:banner_scrollTimeInterval="3"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
