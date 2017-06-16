@@ -68,9 +68,10 @@ public class BannerView extends LinearLayout{
         lp.rightMargin= (int) mRightOffset;
         if (mAutoScroll){
             mHandler=new ScrollHandler(this);
+            mTimer = new Timer();
+            mTimer.schedule(new ScrollTimerTask(),mTimeInterval,mTimeInterval);
         }
-        mTimer = new Timer();
-        mTimer.schedule(new ScrollTimerTask(),mTimeInterval,mTimeInterval);
+
     }
 
 
@@ -129,5 +130,6 @@ public class BannerView extends LinearLayout{
     }
     public void onResume(){
         mShouldPause =false;
+
     }
 }
